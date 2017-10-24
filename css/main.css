@@ -1,0 +1,34 @@
+body{
+  font-family:'Inconsolata', monospace;
+}
+h3{
+  margin-bottom: 5px;
+}
+hr{
+  display: inline-block;
+  width: 70px;
+  height: 5px;
+  background: black;
+  border-radius: 5px;
+}
+img{
+  width: 180px;
+  height: 160px;
+  margin: 10px;
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+.coder1, .coder4{
+  position: relative;
+    float: left;
+    color: white;
+}
+.nombre{
+  position: absolute;
+  top: 150px;
+  left: 65px;
+
+}
+.coder4 {
+   clear: left;
+}
